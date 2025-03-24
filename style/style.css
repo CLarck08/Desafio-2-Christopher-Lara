@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #EDEDED;
+}
+
+
+header{
+    background-color: #11296B;
+   display: flex;
+   justify-content: center;
+}
+
+header h1{
+    margin: 0px;
+    padding: 0px;
+    color: #FFCB05;
+    
+}
+header img{
+    width: 150px;
+    padding: 20px;
+   
+}
+
+nav{
+    background-color: #11296B;
+    display: flex;
+    justify-content: center;
+  
+
+}
+nav a{
+    text-decoration: none;
+    color: #FFCB05;
+    padding: 12px;
+    font-size: 24px;
+}
+
+main{
+        background-color: #EDEDED;
+}
+
+
+.card{
+   margin: 20px;
+   margin-bottom: 10px;
+    width: 200px;
+    
+ 
+}
+.car{
+    display: flex;
+   justify-content: space-around;
+
+
+}
+
+.texto{
+    width: 200px;
+    margin: 20px;
+    margin-top: 10px;
+    display: flex;
+   align-items: center;
+
+    
+}
+
+.cardos
+    {
+        display: flex;
+     
+    }
+
+.cardos img {
+    display: flex;
+    width: 300px;
+
+}
+
+footer{
+    background-color: #00509D;
+    margin: 0px;
+    padding: 0px;
+}

@@ -1,7 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+
+
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #EDEDED;
+    background-color: #fff;
+    font-family: "Maven Pro", sans-serif;
 }
 
 
@@ -20,6 +26,8 @@ header h1{
 header img{
     width: 150px;
     padding: 20px;
+    padding-left: 70px;
+    
    
 }
 
@@ -38,9 +46,19 @@ nav a{
 }
 
 main{
-        background-color: #EDEDED;
+        background-color: #fff;
 }
 
+
+
+main h1{
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+    color: #00509D;
+}
 
 .card{
    margin: 20px;
@@ -49,6 +67,9 @@ main{
     
  
 }
+
+
+
 .car{
     display: flex;
    justify-content: space-around;
@@ -58,28 +79,136 @@ main{
 
 .texto{
     width: 200px;
+    height: 30px;
     margin: 20px;
     margin-top: 10px;
     display: flex;
-   align-items: center;
-
-    
+  justify-content: center;
 }
+
+.car h3{
+    display: flex;
+    color: #FFCB05;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 100px;
+
+}
+
+.cart{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.cart img{
+    border-radius: 20px;
+}
+
+.cartres{
+    background-color: #FFDB57;
+    width: 300px;
+ border-radius: 20px;
+   text-align: center;
+}
+
+.cartres button{
+    background-color: #00509D;
+    margin: 8px;
+}
+
+.cartres button a{
+    color: #FFCB05;
+    text-decoration: none;
+}
+
+
+.cartres img{
+    width: 90%;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+
+
 
 .cardos
     {
         display: flex;
+       justify-content: center;
+        
      
     }
 
-.cardos img {
-    display: flex;
-    width: 300px;
+.cardos p{
+    width: 500px;
+    height: 80px;
+}
 
+.cardos img {
+   display: flex;
+    width: 300px;
+    flex-direction: row;
+
+}
+
+
+
+.cardos button{
+    
+    width: 200px;
+    height: 60px;
+    margin-left: 30px;
+    background-color: #00509D;
+    border-radius: 20px;
+
+   
+}
+
+.cardos button a{
+    text-decoration: none;
+    color: #FFCB05;
+    display: flex;
+    font-size: 16px;
+   justify-content: center;
+}
+
+.tamañode{
+ 
+    
+    display: flex;
+    position: relative;
+    top: -460px;
+    left: 1000px;
+
+}
+
+.tamañode img{
+    width: 400px;
+    justify-content: space-around;
+}
+
+.tama{
+    display: flex;
+    width: 800px;
+    font-size: 20px;
+    margin-left: 80px;
+ 
+   
+ 
 }
 
 footer{
     background-color: #00509D;
     margin: 0px;
-    padding: 0px;
+    font-size: 24px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
+footer p{
+    padding-top: 20px;
+    color: #fff;
 }
